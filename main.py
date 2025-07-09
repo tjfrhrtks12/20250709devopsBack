@@ -41,7 +41,7 @@ item_id_counter = 1
 # 루트 엔드포인트
 @app.get("/")
 async def root():
-    return {"message": "FastAPI 기본 애플리케이션에 오신 것을 환영합니다!"}
+    return {"message": "FastAPI 기본 애플리케이션에 오신 것을 환영합니다!!!!"}
 
 # 헬스체크 엔드포인트
 @app.get("/health")
